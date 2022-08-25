@@ -386,6 +386,7 @@ var hierarchy =
     [ "ContextGlobals", "d5/d87/struct_context_globals.html", null ],
     [ "CPPValue", "d2/d75/class_c_p_p_value.html", null ],
     [ "CallContext::Ctx", "d0/d35/struct_call_context_1_1_ctx.html", null ],
+    [ "DateTimeField", "df/dae/struct_date_time_field.html", null ],
     [ "Debug", "da/d7d/class_debug.html", null ],
     [ "IndexIntf::decContentsDepth< T >", "d6/d1d/struct_index_intf_1_1dec_contents_depth.html", null ],
     [ "declinfoYY_state", "da/d1f/structdeclinfo_y_y__state.html", null ],
@@ -710,6 +711,7 @@ var hierarchy =
     [ "IndexList", "d9/d57/class_index_list.html", null ],
     [ "SearchIndex::IndexWord", "d4/d17/class_search_index_1_1_index_word.html", null ],
     [ "IndexIntf::initialize< T >", "d9/d0e/struct_index_intf_1_1initialize.html", null ],
+    [ "InputFileEncoding", "db/d30/struct_input_file_encoding.html", null ],
     [ "GrowVector< T >::Iterator< C, I >", "d5/dca/class_grow_vector_1_1_iterator.html", null ],
     [ "reg::Iterator", "d4/d72/classreg_1_1_iterator.html", null ],
     [ "vhdl::parser::JJCalls", "d8/da3/structvhdl_1_1parser_1_1_j_j_calls.html", null ],
@@ -1003,6 +1005,7 @@ var hierarchy =
     [ "SIData_Word", "d7/def/struct_s_i_data___word.html", null ],
     [ "SIDataCollection", "d2/dc1/class_s_i_data_collection.html", null ],
     [ "SourceLinkInfo", "dc/dc2/struct_source_link_info.html", null ],
+    [ "SpecFormat", "d5/dfd/struct_spec_format.html", null ],
     [ "sqlcodeYY_state", "da/d7b/structsqlcode_y_y__state.html", null ],
     [ "std::stack", null, [
       [ "IterableStack< const DocNodeVariant * >", "d9/d82/class_iterable_stack.html", null ],
