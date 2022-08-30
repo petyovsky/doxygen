@@ -1293,11 +1293,11 @@ var hierarchy =
             [ "TranslatorSwedish", "d5/d5c/class_translator_swedish.html", null ]
           ] ],
           [ "TranslatorBrazilian", "d2/d4c/class_translator_brazilian.html", null ],
-          [ "TranslatorCzech", "dd/d8a/class_translator_czech.html", null ],
-          [ "TranslatorDutch", "d9/d1b/class_translator_dutch.html", null ],
           [ "TranslatorPortuguese", "dc/df2/class_translator_portuguese.html", null ]
         ] ]
       ] ],
+      [ "TranslatorCzech", "dd/d8a/class_translator_czech.html", null ],
+      [ "TranslatorDutch", "d9/d1b/class_translator_dutch.html", null ],
       [ "TranslatorEnglish", "d6/d78/class_translator_english.html", [
         [ "TranslatorJapaneseEn", "d0/d16/class_translator_japanese_en.html", null ],
         [ "TranslatorKoreanEn", "d0/d3a/class_translator_korean_en.html", null ]

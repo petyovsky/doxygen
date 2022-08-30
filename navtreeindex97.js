@@ -1,5 +1,6 @@
 var NAVTREEINDEX97 =
 {
+"dd/d38/class_translator_norwegian.html#a0dc5533adfc9908456985c664115e6a7":[4,0,593,71],
 "dd/d38/class_translator_norwegian.html#a0ead09cbf04a98fa9e95244ff8264bae":[4,0,593,135],
 "dd/d38/class_translator_norwegian.html#a0ef9f079ffda230be8149e31c1a32137":[4,0,593,94],
 "dd/d38/class_translator_norwegian.html#a0fc9891ef8aa0ef67e33def1488b9b28":[4,0,593,121],
@@ -248,6 +249,5 @@ var NAVTREEINDEX97 =
 "dd/d4b/class_member_def_mutable.html#a54ca95ec5ade3c4571dd04ccccfcfcce":[4,0,373,49],
 "dd/d4b/class_member_def_mutable.html#a54d9adf82e9fa0de8f25368eaf5088e6":[4,0,373,47],
 "dd/d4b/class_member_def_mutable.html#a5574ee3abf4f1a539704f5662a01a53f":[4,0,373,66],
-"dd/d4b/class_member_def_mutable.html#a575c3119238692c90521c648097b4dda":[4,0,373,59],
-"dd/d4b/class_member_def_mutable.html#a5c403df0d4a1186b51d8e4bf3a86efd9":[4,0,373,40]
+"dd/d4b/class_member_def_mutable.html#a575c3119238692c90521c648097b4dda":[4,0,373,59]
 };

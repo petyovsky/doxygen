@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"dd/d4b/class_member_def_mutable.html#a5c403df0d4a1186b51d8e4bf3a86efd9":[4,0,373,40],
 "dd/d4b/class_member_def_mutable.html#a5cbb914e14b7f94c014f1935e9974f01":[4,0,373,1],
 "dd/d4b/class_member_def_mutable.html#a5f64891915904a8d9df90aeec06eb6ee":[4,0,373,45],
 "dd/d4b/class_member_def_mutable.html#a61ae8f29b78fad11d771eab0ee7e2bf8":[4,0,373,71],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "dd/d80/class_translator_turkish.html#a1517458c7647da832b2edde3e58ae9dc":[4,0,605,174],
 "dd/d80/class_translator_turkish.html#a15e7b38e156d7a12323945edb10115a9":[4,0,605,200],
 "dd/d80/class_translator_turkish.html#a1767a6bc5e08f5afd10ffc8a7e92dc29":[4,0,605,69],
-"dd/d80/class_translator_turkish.html#a1803e1336c6bbeea53fc587c38909289":[4,0,605,186],
-"dd/d80/class_translator_turkish.html#a18f0024cfef2da5eea621a48c7858e3d":[4,0,605,176]
+"dd/d80/class_translator_turkish.html#a1803e1336c6bbeea53fc587c38909289":[4,0,605,186]
 };
