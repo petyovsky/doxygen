@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Doxygen: src/dotdirdeps.cpp Source File</title>
+<title>Doxygen: /home/runner/work/doxygen/doxygen/src/dotdirdeps.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -18,6 +18,7 @@
 <script type="text/javascript" src="../../search/search.js"></script>
 <script type="text/javascript" src="../../darkmode_toggle.js"></script>
 <link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+<link href="../../doc_internal.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -165,7 +166,7 @@ $(document).ready(function(){initNavTree('da/d45/dotdirdeps_8cpp_source.html','.
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  <span class="keywordtype">float</span> fraction = <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(depthIndex)/<span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(<a class="code hl_define" href="../../db/d16/config_8h.html#a06b59c3720174e9078f613095a89b295">Config_getInt</a>(DIR_GRAPH_MAX_DEPTH));</div>
 <div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  <span class="keyword">const</span> <span class="keywordtype">char</span> <a class="code hl_variable" href="../../da/db0/htmldocvisitor_8cpp.html#af6d39adaeb2e454e5ad70f6e7cb83416">hex</a>[] = <span class="stringliteral">&quot;0123456789abcdef&quot;</span>;</div>
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>  <span class="keywordtype">int</span> range = 0x40; <span class="comment">// range from darkest color to lightest color</span></div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <span class="keywordtype">int</span> luma   = 0xef-<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(fraction*range); <span class="comment">// interpolation</span></div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>  <span class="keywordtype">int</span> luma   = 0xef-<span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(fraction*<span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(range)); <span class="comment">// interpolation</span></div>
 <div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>  <span class="keywordtype">double</span> r,g,b;</div>
 <div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>  <a class="code hl_function" href="../../dc/da6/class_colored_image.html#aa28cffecb75cf52b6b457178851704c5">ColoredImage::hsl2rgb</a>(hue/360.0,sat/255.0,</div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>                        pow(luma/255.0,gamma/100.0),&amp;r,&amp;g,&amp;b);</div>
@@ -579,7 +580,7 @@ $(document).ready(function(){initNavTree('da/d45/dotdirdeps_8cpp_source.html','.
 <div class="ttc" id="aclass_doxygen_html_aeb009dfd4eca1e806843a68765b975db"><div class="ttname"><a href="../../de/d6a/class_doxygen.html#aeb009dfd4eca1e806843a68765b975db">Doxygen::dirRelations</a></div><div class="ttdeci">static DirRelationLinkedMap dirRelations</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da1/doxygen_8h_source.html#l00121">doxygen.h:121</a></div></div>
 <div class="ttc" id="aclass_linked_map_html_acddca8cb09f114936f6b80276f2c9c1b"><div class="ttname"><a href="../../d0/d2c/class_linked_map.html#acddca8cb09f114936f6b80276f2c9c1b">LinkedMap::add</a></div><div class="ttdeci">T * add(const char *k, Args &amp;&amp;... args)</div><div class="ttdoc">Adds a new object to the ordered vector if it was not added already.</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de1/linkedmap_8h_source.html#l00090">linkedmap.h:90</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html">QCString</a></div><div class="ttdoc">This is an alternative implementation of QCString.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00108">qcstring.h:109</a></div></div>
-<div class="ttc" id="aclass_q_c_string_html_a875e9ad762554ef12f3ed69b015bb245"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">QCString::str</a></div><div class="ttdeci">const std::string &amp; str() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00468">qcstring.h:468</a></div></div>
+<div class="ttc" id="aclass_q_c_string_html_a875e9ad762554ef12f3ed69b015bb245"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#a875e9ad762554ef12f3ed69b015bb245">QCString::str</a></div><div class="ttdeci">const std::string &amp; str() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00480">qcstring.h:480</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_aa2dccf89cb25346c3ee81d75aa5859da"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#aa2dccf89cb25346c3ee81d75aa5859da">QCString::sprintf</a></div><div class="ttdeci">QCString &amp; sprintf(const char *format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d3e/qcstring_8cpp_source.html#l00029">qcstring.cpp:29</a></div></div>
 <div class="ttc" id="aclass_q_c_string_html_ae4e7678c93bacb8b7806597a8520ca54"><div class="ttname"><a href="../../d9/d45/class_q_c_string.html#ae4e7678c93bacb8b7806597a8520ca54">QCString::insert</a></div><div class="ttdeci">QCString &amp; insert(size_t index, const QCString &amp;s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/qcstring_8h_source.html#l00300">qcstring.h:300</a></div></div>
 <div class="ttc" id="aclass_text_stream_html"><div class="ttname"><a href="../../d3/d30/class_text_stream.html">TextStream</a></div><div class="ttdoc">Text streaming class that buffers data.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7d/textstream_8h_source.html#l00034">textstream.h:35</a></div></div>
